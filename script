@@ -1,0 +1,21 @@
+// script.js
+
+// Sample function to add a flower to the cart
+function addToCart(flowerName, price) {
+    alert(`${flowerName} has been added to your cart at ${price}`);
+}
+
+// Sample function to display a welcome message
+function displayWelcomeMessage() {
+    const welcomeMessage = 'Welcome to the Flower Shop!';
+    alert(welcomeMessage);
+}
+
+// Call the displayWelcomeMessage function when the page loads
+window.onload = function() {
+    displayWelcomeMessage();
+};
+
+// Example usage for addToCart function
+// You can call this function when a user clicks an "Add to Cart" button
+// Example: addToCart('Flower 1', '$10');
